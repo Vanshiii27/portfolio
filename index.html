@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Vanshika Rawat Portfolio</title>
+
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff0f5;
+    color: #333;
+    scroll-behavior: smooth;
+  }
+
+  /* HEADER */
+  header {
+    background: linear-gradient(135deg, #620634, #c50a68);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  header h1 {
+    font-size: 45px;
+    margin: 0;
+  }
+
+  header p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .hero{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:120px;
+    max-width:1100px;
+    margin:auto;
+    padding: 40px;
+}
+
+.hero-image{
+    margin-left:auto;
+    text-align:right;
+}
+
+.hero-image img{
+    width:350px;
+    height:350px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid white;
+}
+
+.hero-text{
+    width:60%;
+    text-align:left;
+}
+
+.hero-text h1{
+    margin:0;
+    font-size:42px;
+}
+
+.hero-text h3{
+    margin-top:10px;
+}
+
+.hero-text p{
+    line-height:1.6;
+}
+  
+
+  section {
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  }
+
+  h2 {
+    color: #C50A68;
+  }
+
+  /* SKILLS */
+  .skills span {
+    display: inline-block;
+    background: #ffe6f0;
+    color: #620634;
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+
+  /* PROJECTS */
+  .project {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-left: 4px solid #c50a68;
+    background: #fff5fa;
+  }
+
+  /* BUTTONS */
+  .btn {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px 15px;
+    background: #c50a68;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+
+  .btn:hover {
+    background: #620634;
+    transform: scale(1.05);
+  }
+
+  /* ANIMATION */
+  .fade {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s forwards;
+  }
+
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="hero">
+
+    <div class="hero-image">
+      <img src="formal.jpeg" alt="Vanshika Rawat">
+    </div>
+
+    <div class="hero-text">
+      <h1>Vanshika Rawat</h1>
+      <h3>Backend Developer | Web Developer</h3>
+
+      <p>
+        BCA Graduate passionate about Backend and Web Development.
+        Skilled in Python, HTML, CSS, JavaScript and Node.js.
+        Building creative and user-friendly digital solutions.
+      </p>
+
+      
+    </div>
+
+  </div>
+</header>
+
+<section class="fade">
+  <h2>About Me</h2>
+  <p>
+    I am a passionate Backend and Web Developer with a strong interest in building efficient,
+     user-friendly, and responsive applications.
+      I have hands-on experience with Python, HTML, CSS, JavaScript, and basic 
+      Node.js through academic and personal projects. 
+      As a BCA graduate, I enjoy solving problems, learning new technologies, 
+      and turning ideas into practical solutions. I am currently seeking opportunities
+       where I can contribute, grow my skills, and gain real-world development experience.
+  </p>
+</section>
+
+<section class="fade">
+  <h2>Skills</h2>
+  <div class="skills">
+    <span>C</span>
+    <span>C++</span>
+    <span>Java</span>
+    <span>Python</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    
+    <span>MS Office</span>
+    <span>WordPress</span>
+
+  </div>
+</section>
+
+<section class="fade">
+  <h2>Projects</h2>
+
+  <div class="project">
+    <b>Noor Kurtis Website</b>
+    <p>HTML, CSS, JavaScript based responsive website.</p>
+  </div>
+
+  <div class="project">
+    <b>Hospital Management System</b>
+    <p>Python + PyQt5 GUI project.</p>
+  </div>
+
+  <div class="project">
+    <b>AI Chatbot</b>
+    <p>Python Tkinter chatbot application.</p>
+  </div>
+
+  <div class="project">
+    <b>Masala Website</b>
+    <p>Static HTML & CSS website.</p>
+  </div>
+</section>
+
+<section class="fade">
+  <h2>Education</h2>
+  <p>
+    BCA (2023–2026)<br>
+    Jai Parkash Mukand Lal Innovative Engineering & Technology Institute
+  </p>
+</section>
+
+<section class="fade">
+  <h2>Contact</h2>
+  <p>Email: rawatvanshika48@gmail.com</p>
+  <p>Phone: 9034234916</p>
+
+  <a class="btn" href="https://www.linkedin.com/in/vanshika-rawat-2a8646321" target="_blank">
+    LinkedIn
+  </a>
+
+  <a class="btn" href="https://vanshiii27.github.io/noor-kurtis/" target="_blank">
+    Latest Project
+  </a>
+
+
+  <!-- Resume Download (add your PDF later) -->
+  <a class="btn" href="resume.pdf" download>
+    Download Resume
+  </a>
+</section>
+
+</body>
+</html>
